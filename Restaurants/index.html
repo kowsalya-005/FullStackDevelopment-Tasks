@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm rounded px-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="iDeliver.png" alt="Logo" style="height: 40px; width: 100px;">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
+                    <li class="nav-item dropdown ms-lg-3">
+                        <button class="btn btn-light border shadow-sm dropdown-toggle" data-bs-toggle="dropdown">
+                            <i class="bi bi-geo-alt"></i> Rio De Janeiro,Br
+                        </button>
+                        <ul class="dropdown-menu"><li><a class="dropdown-item" href="#"></a></li></ul>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center gap-3">
+                    <div class="text-muted cursor-pointer">
+                        <i class="bi bi-search pe-1"></i> Search
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn btn-light border shadow-sm dropdown-toggle" data-bs-toggle="dropdown">
+                            <i class="bi bi-translate"></i> Eng
+                        </button>
+                        <ul class="dropdown-menu"><li><a class="dropdown-item" href="#"></a></li></ul>
+                    </div>
+                    <div class="p-2 bg-light border rounded shadow-sm">
+                        <i class="bi bi-basket2 px-2"></i>
+                    </div>
+                    <button class="btn text-white px-4 btn-primary">
+                        Login
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container-fluid mt-3">
+        <div class="row">
+            <div class="col-lg-3 bg-white p-3 rounded shadow-sm">
+                <h4 class="mb-3">Cuisines</h4>
+                <div class="d-flex flex-column gap-3">
+                    <div class="d-flex align-items-center">
+                        <img src="Beverages.jpg" class="rounded-circle me-3" style="width:50px; height:50px;">
+                        <p class="mb-0">Beverages</p>
+                    </div>
+                    
+                    <div class="d-flex align-items-center">
+                        <img src="Chinese.jpeg" class="rounded-circle me-3" style="width:50px; height:50px;">
+                        <p class="mb-0">Chinese</p>
+                    </div>
+                    
+                    <div class="d-flex align-items-center">
+                        <img src="Burger.jpg" class="rounded-circle me-3" style="width:50px; height:50px;">
+                        <p class="mb-0">Burger</p>
+                    </div>
+                    
+                    <div class="d-flex align-items-center">
+                        <img src="European.png" class="rounded-circle me-3" style="width:50px; height:50px;">
+                        <p class="mb-0">European</p>
+                    </div>
+                    
+                    <div class="d-flex align-items-center">
+                        <img src="French.jpg" class="rounded-circle me-3" style="width:50px; height:50px;">
+                        <p class="mb-0">French</p>
+                    </div>
+                    
+                    <div class="d-flex align-items-center">
+                        <img src="Lebanese.jpg" class="rounded-circle me-3" style="width:50px; height:50px;">
+                        <p class="mb-0">Lebanese</p>
+                    </div>
+                    
+                    <div class="d-flex align-items-center">
+                        <img src="Mexican.jpg" class="rounded-circle me-3" style="width:50px; height:50px;">
+                        <p class="mb-0">Mexican</p>
+                    </div>
+                    
+                    <div class="d-flex align-items-center">
+                        <img src="Pizza.jpg" class="rounded-circle me-3" style="width:50px; height:50px;">
+                        <p class="mb-0">Pizza</p>
+                    </div>
+                    
+                    <div class="d-flex align-items-center">
+                        <img src="Salad.jpeg" class="rounded-circle me-3" style="width:50px; height:50px;">
+                        <p class="mb-0">Salads</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-9">
+                <div class="bg-white rounded shadow-sm p-3">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <ol class="breadcrumb mb-0">
+                            <li class="breadcrumb-item">Home</li>
+                            <li class="breadcrumb-item active text-primary fw-bold">Restaurants</li>
+                        </ol>
+                        
+                        <div class="d-flex gap-2 fw-bold">
+                            <h5>Sort</h5>
+                            <h5>Ratings</h5>
+                            <h5>Cost per person</h5>
+                            <h5>Order type</h5>
+                        </div>
+                    </div>
+                    <div class="row g-3">
+                        <div class="col-md-4">
+                            <div class="card text-white border-0">
+                                <img src="img1.jpg" class="card-img" 
+                                style="height:200px; object-fit:cover; border-radius:10px;">
+                                <div class="card-img-overlay d-flex flex-column justify-content-end p-3"
+                                style="background: linear-gradient(to top, rgba(0,0,0,0.7), transparent); border-radius:10px;">
+                                <h6 class="fw-bold">50% Off</h6>
+                                <p class="mb-1">Exclusive Offers on All Cuisines</p>
+                                <h4 class="fw-bold">ALBERTSONS</h4>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <div class="card text-white border-0">
+                            <img src="img2.jpg" class="card-img" 
+                            style="height:200px; object-fit:cover; border-radius:10px;">
+                            <div class="card-img-overlay  d-flex flex-column justify-content-end p-3"
+                            style="background: linear-gradient(to top, rgba(0,0,0,0.7), transparent); border-radius:10px;">
+                            <h6 class="fw-bold">50% Off</h6>
+                            <p class="mb-1">Exclusive Offers on All Cuisines</p>
+                            <h4 class="fw-bold">ALBERTSONS</h4>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card text-white border-0">
+                        <img src="img3.jpg" class="card-img" 
+                        style="height:200px; object-fit:cover; border-radius:10px;">
+                        <div class="card-img-overlay d-flex flex-column justify-content-end p-3"
+                        style="background: linear-gradient(to top, rgba(0,0,0,0.7), transparent); border-radius:10px;">
+                        <h6 class="fw-bold">50% Off</h6>
+                        <p class="mb-1">Exclusive Offers on All Cuisines</p>
+                        <h4 class="fw-bold">ALBERTSONS</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <p class="fw-bold fs-4 mt-3">Recommended Restaurants</p>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="d-flex">
+                    <img src="Beverages.jpg" class="rounded me-3" style="width:90px; height:90px;"> 
+                    <div>
+                        <p class="fw-bold mb-1">Food Zone</p>
+                        <p class="text-secondary mb-1">TN, India</p>
+                        <small><i class="bi bi-star-fill text-dark"></i> 4.1 3.9km Min Order:₹500</small>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="d-flex">
+                    <img src="Burger.jpg" class="rounded me-3" style="width:90px; height:90px;">
+                    <div>
+                        <p class="fw-bold mb-1">Tasty Bites</p>
+                        <p class="text-secondary mb-1">TN, India</p>
+                        <small><i class="bi bi-star-fill text-dark"></i> 4.1 3.9km Min Order:₹800</small>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="d-flex">
+                    <img src="Chinese.jpeg" class="rounded me-3" style="width:90px; height:90px;">
+                    <div>
+                        <p class="fw-bold mb-1">Flavor Haven</p>
+                        <p class="text-secondary mb-1">TN, India</p>
+                        <small><i class="bi bi-star-fill text-dark"></i> 4.1 3.9km Min Order:₹1000</small>
+                    </div>
+                </div>
+            </div>
+
+             <div class="col-md-4">
+                <div class="d-flex">
+                    <img src="European.png" class="rounded me-3" style="width:90px; height:90px;">
+                    <div>
+                        <p class="fw-bold mb-1">Sizzle & Spice</p>
+                        <p class="text-secondary mb-1">TN, India</p>
+                        <small><i class="bi bi-star-fill text-dark"></i> 4.1 3.9km Min Order:₹900</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="d-flex">
+                    <img src="French.jpg" class="rounded me-3" style="width:90px; height:90px;">
+                    <div>
+                        <p class="fw-bold mb-1">The Cozy Spoon</p>
+                        <p class="text-secondary mb-1">TN, India</p>
+                        <small><i class="bi bi-star-fill text-dark"></i> 4.1 3.9km Min Order:₹600</small>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="d-flex">
+                    <img src="Lebanese.jpg" class="rounded me-3" style="width:90px; height:90px;">
+                    <div>
+                        <p class="fw-bold mb-1">Urban Eats</p>
+                        <p class="text-secondary mb-1">TN, India</p>
+                        <small><i class="bi bi-star-fill text-dark"></i> 4.1 3.9km Min Order:₹600</small>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="d-flex">
+                    <img src="Mexican.jpg" class="rounded me-3" style="width:90px; height:90px;">
+                    <div>
+                        <p class="fw-bold mb-1">Golden Plate</p>
+                        <p class="text-secondary mb-1">TN, India</p>
+                        <small><i class="bi bi-star-fill text-dark"></i> 4.1 3.9km Min Order:₹700</small>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="d-flex">
+                    <img src="Pizza.jpg" class="rounded me-3" style="width:90px; height:90px;">
+                    <div>
+                        <p class="fw-bold mb-1">Fresh Feast</p>
+                        <p class="text-secondary mb-1">TN, India</p>
+                        <small><i class="bi bi-star-fill text-dark"></i> 4.1 3.9km Min Order:₹1500</small>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="d-flex">
+                    <img src="Salad.jpeg" class="rounded me-3" style="width:90px; height:90px;">
+                    <div>
+                        <p class="fw-bold mb-1">Savory Stop</p>
+                        <p class="text-secondary mb-1">TN, India</p>
+                        <small><i class="bi bi-star-fill text-dark"></i> 4.1 3.9km Min Order:₹1100</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>
